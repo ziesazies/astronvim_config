@@ -232,6 +232,7 @@ local config = {
     end,
     treesitter = { -- overrides `require("treesitter").setup(...)`
       ensure_installed = { "lua" },
+      rainbow = { enable = false }
     },
     -- use mason-lspconfig to configure LSP installations
     ["mason-lspconfig"] = { -- overrides `require("mason-lspconfig").setup(...)`
